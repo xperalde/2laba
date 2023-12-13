@@ -1,0 +1,9 @@
+﻿  keeper.cpp
+  sign.cpp
+  Создание кода...
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl SIGN::setFirstName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setFirstName@SIGN@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции main.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl SIGN::setLastName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setLastName@SIGN@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции main.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl SIGN::setBirthday(int,int,int)" (?setBirthday@SIGN@@QEAAXHHH@Z) в функции main.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl SIGN::setZodiacSign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setZodiacSign@SIGN@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции main.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Keeper::setSign(class SIGN *,int)" (?setSign@Keeper@@QEAAXPEAVSIGN@@H@Z) в функции main.
+C:\Users\Xperalde\Desktop\Учеба\Технологии программирования\Лаба2\TP-2-LABA\x64\Debug\TP-2-LABA.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
